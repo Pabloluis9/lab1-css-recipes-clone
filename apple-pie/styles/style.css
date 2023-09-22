@@ -1,0 +1,88 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+#header-section {
+    height: 500px;
+  background: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-tittle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 200px;
+}
+.parrafo1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ font-size: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.primer-div {
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+  
+  
+}
+.segundo-div {
+  margin-left: 300px;
+  margin-right: 300px;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+  .tercer-div {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+    
+  }
+  
+
+  .lista-desordenada {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    list-style: circle;
+    font-family: ;
+  }
+
+  .lista-ordenada {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 20px;
+  }
+
+  .recipe {
+    margin-left: 200px;
+  
+  }
