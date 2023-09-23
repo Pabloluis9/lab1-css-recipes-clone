@@ -24,7 +24,7 @@ body {
 /* Write your CSS below */
 
 #header-section {
-    height: 500px;
+  height: 500px;
   background: url(../images/apple-pie.jpg);
   background-size: cover;
   background-position: center;
